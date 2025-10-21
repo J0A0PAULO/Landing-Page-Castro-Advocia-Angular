@@ -1,8 +1,12 @@
-img {
-  opacity: 0;
-  transition: opacity ease;
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 2rem;
+  height: 2rem;
+  background-size: 100% 100%;
 }
 
-.visivel {
-  opacity: 1;
+@media(max-width: 700px) {
+  #carouselExampleControls {
+    display: none;
+  }
 }
