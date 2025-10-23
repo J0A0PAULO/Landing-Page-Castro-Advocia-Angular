@@ -14,6 +14,7 @@ export class Header implements OnInit{
   ngOnInit(): void {
       setTimeout(()=> {
         this.headerVisivel = true;
+        console.log("ligado")
       },300);
   }
 }

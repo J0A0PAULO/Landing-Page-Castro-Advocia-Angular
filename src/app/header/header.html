@@ -1,11 +1,11 @@
-<div class="container-header" [ngClass]="{'visivel' : headerVisivel}">
-  <figure><a href="#"><img src="logo.png" alt="logo"></a></figure>
+<div class="container-header">
 
+  <figure><a href="#"><img src="logo.png" alt="logo" class=""></a></figure>
   <nav>
     <ul>
-      <li><a href="#">Sobre-nos</a></li>
-      <li><a href="#">Casos de Sucesso</a></li>
-      <li><a href="#">Contato</a></li>
+      <li><a href="#" [ngClass]="{'visivel' : headerVisivel}">Sobre-nos</a></li>
+      <li><a href="#" [ngClass]="{'visivel' : headerVisivel}">Casos de Sucesso</a></li>
+      <li><a href="#" [ngClass]="{'visivel' : headerVisivel}" >Contato</a></li>
     </ul>
   </nav>
 </div>
