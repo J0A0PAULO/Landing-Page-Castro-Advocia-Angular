@@ -1,4 +1,4 @@
----
+
 
 # 🚀 Landing Page Castro Advocacia
 
@@ -6,9 +6,6 @@
 
 Landing page institucional desenvolvida com Angular 20, focada em design moderno, responsividade e integração com API mock.
 
----
-
-## 🎨 Design Original
 Figma: [Ver Protótipo](https://www.figma.com/design/TMq10CmFmKkyvheXwrJmK6/castroAdvocacia-landpage?node-id=0-1&t=YA5iIaTlhESmX0He-1)
 
 ---
