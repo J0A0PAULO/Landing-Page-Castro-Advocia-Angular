@@ -1,20 +1,11 @@
-import { NgClass } from '@angular/common';
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 @Component({
   selector: 'app-sobre-nos',
-  imports: [NgClass],
+  imports: [],
   templateUrl: './sobre-nos.html',
   styleUrl: './sobre-nos.scss'
 })
-export class SobreNos implements OnInit  {
+export class SobreNos {
 
-  containerVisivel : boolean = false;
-
-  ngOnInit(){
-    setTimeout(()=> {
-      this.containerVisivel  = true;
-      
-    }, 500);
-  }
 
 }

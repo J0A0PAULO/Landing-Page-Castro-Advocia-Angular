@@ -1,0 +1,28 @@
+{
+  "email": [
+    {
+      "id": "1",
+      "nome": "joao",
+      "email": "teste@gmail.com",
+      "texto": "mendando mensagem por json"
+    },
+    {
+      "id": "6790",
+      "nome": "2222",
+      "email": "novo@gmail.com",
+      "texto": "aaaasasas"
+    },
+    {
+      "id": "5eea",
+      "nome": "2222",
+      "email": "novo@gmail.com",
+      "texto": "aaaasasas"
+    },
+    {
+      "id": "29e6",
+      "nome": "maria",
+      "email": "mari@gmasil.com",
+      "texto": ""
+    }
+  ]
+}

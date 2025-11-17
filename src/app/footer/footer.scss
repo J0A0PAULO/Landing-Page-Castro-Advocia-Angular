@@ -14,3 +14,9 @@
 .container-footer p {
   font-size: 32px;
 }
+
+@media (max-width: 900px) {
+  .container-footer p {
+    font-size: 16px;
+  }
+}

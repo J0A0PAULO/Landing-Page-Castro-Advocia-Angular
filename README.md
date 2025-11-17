@@ -1,59 +1,142 @@
-# LandingPage
+---
+# 🚀 Landing Page Castro Advocacia
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.3.6.
+Landing page institucional desenvolvida com Angular 20, focada em design moderno, responsividade e integração com API mock.
 
-## Development server
+---
 
-To start a local development server, run:
+## 🎨 Design Original
+Figma: [Ver Protótipo](https://www.figma.com/design/TMq10CmFmKkyvheXwrJmK6/castroAdvocacia-landpage?node-id=0-1&t=YA5iIaTlhESmX0He-1)
 
-```bash
-ng serve
+---
+
+## 🎯 Sobre o Projeto
+Landing page fictícia para o escritório "Castro Advocacia". O objetivo é demonstrar domínio em Angular, componentização moderna, integração HTTP, SCSS modular e fidelidade visual ao design do Figma.
+
+Principais entregas:
+- Layout institucional responsivo
+- Formulário de contato funcional (mock API)
+- Componentes standalone reutilizáveis
+- Estilo e UX refinados
+
+---
+
+## 🚀 Tecnologias Utilizadas
+- Angular 20 (Standalone Components)
+- TypeScript
+- SCSS modular
+- HTML5
+- CSS3 (Grid/Flexbox)
+- Figma (Design System)
+- json-server (API mock)
+
+---
+
+## ⚙️ Funcionalidades
+✅ Formulário de contato integrado à API mock
+✅ Layout institucional com seções: header, banner, sobre, casos resolvidos, contato, footer
+✅ Componentes standalone e reutilizáveis
+✅ Two-way data binding com ngModel
+✅ Estilos modulares e responsivos
+
+---
+
+## 🎨 Layout & Especificações
+Design fiel ao Figma, com:
+- Paleta de cores institucional
+- Tipografia moderna
+- Layout grid para desktop e mobile
+- Responsividade e acessibilidade
+
+
+```scss
+.container-conteudo {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(720px, 678px));
+  grid-template-rows: 637px;
+  justify-content: center;
+  gap: 250px;
+}
+
+@media (max-width: 780px) {
+  .container-conteudo {
+    grid-template-columns: repeat(1, 330px);
+    grid-template-rows: 329px;
+    gap: 30px;
+  }
+}
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+---
 
-## Code scaffolding
+## 🏗️ Estrutura do Projeto
+src/
+├── app/
+│   ├── contato/           # Formulário de contato
+│   ├── header/            # Cabeçalho
+│   ├── footer/            # Rodapé
+│   ├── carrosel/          # Banner rotativo
+│   ├── sobre-nos/         # Seção institucional
+│   ├── casos-resolvidos/  # Cards de casos
+│   ├── services/          # Service Angular + types
+│   └── backend/           # email.json (mock API)
+├── public/                # Assets públicos
+└── styles.scss            # Estilos globais
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+---
 
+## ⚡ Recursos Angular Modernos
+- Standalone Components
+- importProvidersFrom (HttpClient)
+- FormsModule local
+- SCSS modular
+
+---
+
+## 💡 Aprendizados
+- Componentização moderna com Angular 20
+- Integração HTTP com json-server
+- Estruturação de SCSS por componente
+- Fidelidade visual ao Figma
+- Boas práticas de UX e acessibilidade
+
+---
+
+## 🛣️ Próximas Melhorias
+- Adicionar responsividade avançada para mobile
+- Implementar animações e microinterações
+- Fazer deploy (Netlify/Vercel)
+- Adicionar testes unitários
+
+---
+
+## 📱 Preview
+🎨 Design Original: [Figma](https://www.figma.com/design/TMq10CmFmKkyvheXwrJmK6/castroAdvocacia-landpage?node-id=0-1&t=YA5iIaTlhESmX0He-1)
+
+---
+
+## 👨‍💻 Autor
+João Paulo
+
+LinkedIn: https://www.linkedin.com/in/jo%C3%A3o-paulo-dos-santos-moreira-b52b7b174/
+GitHub: https://github.com/J0A0PAULO
+
+---
+
+## 🚀 Como Executar Localmente
 ```bash
-ng generate component component-name
+# Instalar dependências
+npm install
+
+# Rodar mock API
+npx json-server --watch src/app/backend/email.json --port 3000
+
+# Rodar aplicação Angular
+npm start
+
+# Abrir no navegador
+http://localhost:4200
 ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## 📝 Licença e créditos
+Projeto criado para fins de demonstração/portfólio. Imagens e textos são fictícios e usados apenas para demonstração.

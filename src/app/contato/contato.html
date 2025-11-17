@@ -16,10 +16,10 @@
   </div>
   <div class="formulario">
     <h2>Entre em contato</h2>
-    <form>
-      <input type="text" name="nome" placeholder="  Digite Seu nome" required>
-      <input type="email" name="email" placeholder="  Digite email exemplo eaaa@gmail.com">
-      <textarea name="texto" placeholder="  Me Fale sobre seu caso "></textarea>
+    <form (ngSubmit)="enviarEmail()">
+      <input type="text" name="nome" placeholder="  Digite Seu nome" required [(ngModel)]="nome">
+      <input type="email" name="email" placeholder="  Digite email exemplo eaaa@gmail.com" [(ngModel)]="email">
+      <textarea name="texto" placeholder="  Me Fale sobre seu caso " ([ngModel])="texto"></textarea>
       <button type="submit">Enviar</button>
     </form>
   </div>
